@@ -6,13 +6,12 @@ var NameField = React.createClass({
   },
   onChange: function(e) {
     this.setState({value: e.target.value});
-
-  },
-  clear : function() {
-    this.setState({value: ""});
-
   },
   
+  clear : function() {
+    this.setState({value: ""});
+  },
+
   render: function() {
     return(
       <input
@@ -20,9 +19,6 @@ var NameField = React.createClass({
         placeholder={this.props.type + " Name"}
         onChange ={this.onChange}
        value={this.state.value} />
-
-
-
     );
 
   }

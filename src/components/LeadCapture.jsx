@@ -28,10 +28,8 @@ var LeadCapture = React.createClass({
             </div>
         </div>
       </div>
-
     );
   }
-
 })
 
 module.exports = LeadCapture;
